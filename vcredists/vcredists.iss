@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define appName "Neard Visual C++ Redistributables Installer (x86)"
-#define appVersion "1.3"
+#define appVersion "r1"
 #define appPublisher "Cr@zy"
 #define appURL "https://github.com/crazy-max/neard"
 #define appBasename = "neard-vcredists-x86"
@@ -24,7 +24,7 @@ WizardSmallImageFile=.\setup-mini.bmp
 InfoBeforeFile=.\before.txt
 CreateAppDir=no
 OutputDir=.\bin
-OutputBaseFilename={#appBasename}
+OutputBaseFilename={#appBasename}-{#appVersion}
 SetupIconFile=.\neard.ico
 Compression=lzma/max
 SolidCompression=yes
