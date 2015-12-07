@@ -11,7 +11,7 @@ Package of commons Visual C++ Redistributables Installer (x86) built with InnoSe
 * Visual C++ 2015 Runtimes
 
 Download : [neard-vcredists-x86.exe](https://github.com/crazy-max/neard-misc/releases/download/vcredists-1.3/neard-vcredists-x86.exe)<br />
-Src : [vcredists](https://github.com/crazy-max/neard/tree/master/vcredists)
+Src : [vcredists](https://github.com/crazy-max/neard-misc/tree/master/vcredists)
 
 ## Issues
 
