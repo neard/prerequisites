@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define appName "Neard Visual C++ Redistributables Installer (x86)"
-#define appVersion "r1"
+#define appVersion "r2"
 #define appPublisher "Cr@zy"
 #define appURL "https://github.com/crazy-max/neard"
 #define appBasename = "neard-vcredists-x86"
