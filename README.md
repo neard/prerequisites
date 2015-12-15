@@ -4,6 +4,9 @@ This a sub-repo of [Neard project](https://github.com/crazy-max/neard) involving
 
 ### Visual C++ Redistributables Package
 
+[![neard vcredists x86 r2 download](https://img.shields.io/badge/download-neard%20vcredists%20x86%20r2-brightgreen.svg)](https://github.com/crazy-max/neard-misc/releases/download/r2/neard-vcredists-x86-r2.exe)
+[![vcredists source](https://img.shields.io/badge/source-vcredists-blue.svg)](https://github.com/crazy-max/neard-misc/tree/master/vcredists)
+
 Package of commons Visual C++ Redistributables Installer (x86) built with InnoSetup :
 
 * Visual C++ 2005 SP1 Runtimes
@@ -11,9 +14,6 @@ Package of commons Visual C++ Redistributables Installer (x86) built with InnoSe
 * Visual C++ 2010 SP1 Runtimes
 * Visual C++ 2012 UPD4 Runtimes
 * Visual C++ 2015 UPD1 Runtimes
-
-Download : [neard-vcredists-x86.exe](https://github.com/crazy-max/neard-misc/releases/download/r2/neard-vcredists-x86-r2.exe)<br />
-Src : [vcredists](https://github.com/crazy-max/neard-misc/tree/master/vcredists)
 
 ## Issues
 
