@@ -17,5 +17,4 @@ Package of commons Visual C++ Redistributables Installer (x86) built with InnoSe
 
 ## Issues
 
-Issues must be reported on [Neard repository](https://github.com/crazy-max/neard/issues).<br />
-Please read [Found a bug?](https://github.com/crazy-max/neard#found-a-bug) section before reporting an issue.
+Issues must be reported on [Neard repository](https://github.com/crazy-max/neard/issues).
