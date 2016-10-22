@@ -1,5 +1,10 @@
 # Changelog
 
+## r3 (2016/10/22)
+
+* Adding Visual C++ Redistributables 2013 (required for PostgreSQL)
+* Add ANT build tools
+
 ## r2 (2015/12/13)
 
 * Adding Visual C++ Redistributables 2015 Update 1

@@ -4,6 +4,7 @@ Neard Visual C++ Redistributables Installer (x86) installs runtime components of
 - Visual C++ 2008 Runtimes
 - Visual C++ 2010 Runtimes
 - Visual C++ 2012 Runtimes
+- Visual C++ 2013 Runtimes
 - Visual C++ 2015 Runtimes
 
 Website : https://github.com/crazy-max/neard

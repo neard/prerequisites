@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="neard-misc" basedir=".">
+    
+    <dirname property="project.basedir" file="${ant.file.neard-misc}" />
+    <property name="root.dir" location="${project.basedir}/.." />
+    <property name="build.properties" value="${project.basedir}/build.properties" />
+    <property file="${build.properties}" />
+    
+    <!-- Neard dev -->
+    <property name="neard-dev.path" location="${root.dir}/neard-dev" />
+    <fail unless="neard-dev.path" message="Project 'neard-dev' not found in ${neard-dev.path}" />
+    <echo message="Neard dev found in ${neard-dev.path}" level="debug" /> 
+    
+    <!-- Import build-commons.xml -->
+    <import file="${neard-dev.path}/build/build-commons.xml" />
+    <!-- Import build-misc.xml -->
+    <import file="${neard-dev.path}/build/build-misc.xml" />
+    
+    <target name="release" depends="build.vcredists" description="Release"/>
+    
+    <target name="build.vcredists" depends="init, load.lib">
+        <property name="vcredists.path" location="${project.basedir}/vcredists" />
+        <property name="vcredists.src" location="${vcredists.path}/src" />
+        <property name="vcredists.tmp" location="${build.tmp.path}/vcredists" />
+        <property name="vcredists.dest" location="${build.misc.path}/vcredists" />
+        
+        <echo message="Copying files"/>
+        <delete dir="${vcredists.tmp}" />
+        <mkdir dir="${vcredists.tmp}" />
+        <copy todir="${vcredists.tmp}">
+            <fileset dir="${vcredists.path}"/>
+        </copy>
+        <copy file="${vcredists.path}/setup.iss" tofile="${vcredists.tmp}/setup.iss" overwrite="true">
+            <filterset>
+                <filter token="MISC_RELEASE" value="${misc.release}"/>
+                <filter token="MISC_NAME" value="${misc.vcredists.name}"/>
+                <filter token="MISC_SETUPNAME" value="${misc.vcredists.setupname}"/>
+            </filterset>
+        </copy>
+        
+        <echo message="Compile setup"/>
+        <exec executable="${innosetup.path}/app/ISCC.exe" dir="${vcredists.tmp}">
+            <arg value="/O${vcredists.dest}"/>
+            <arg value="/F${misc.vcredists.setupname}"/>
+            <arg value="${vcredists.tmp}/setup.iss"/>
+        </exec>
+    </target>
+</project>
