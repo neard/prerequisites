@@ -1,20 +1,25 @@
+[![GitHub release](https://img.shields.io/github/release/crazy-max/neard-misc.svg?style=flat-square)](https://github.com/crazy-max/neard-misc/releases/latest)
+![Total downloads](https://img.shields.io/github/downloads/crazy-max/neard-misc/total.svg?style=flat-square)
+
 This a sub-repo of [Neard project](https://github.com/crazy-max/neard) involving misc utilities required.
 
 ## Misc
 
 ### Visual C++ Redistributables Package
 
-[![neard vcredists x86 r3 download](https://img.shields.io/badge/download-neard%20vcredists%20x86%20r3-brightgreen.svg)](https://github.com/crazy-max/neard-misc/releases/download/r3/neard-vcredists-x86-r3.exe)
-[![vcredists source](https://img.shields.io/badge/source-vcredists-blue.svg)](https://github.com/crazy-max/neard-misc/tree/master/vcredists)
+[![neard vcredists r4 download](https://img.shields.io/badge/download-neard%20vcredists%20r4-brightgreen.svg?style=flat-square)](https://github.com/crazy-max/neard-misc/releases/download/r4/neard-vcredists-r4.exe)
+[![vcredists source](https://img.shields.io/badge/source-vcredists-blue.svg?style=flat-square)](https://github.com/crazy-max/neard-misc/tree/master/vcredists)
 
-Package of commons Visual C++ Redistributables Installer (x86) built with InnoSetup :
+The MSVC runtime libraries VC9, VC10, VC11 are required even if you use only Apache and PHP versions with VC11.<br />
+Runtimes VC13, VC14 are required for PHP 7 and Apache 2.4.17.<br />
+This setup provide all the Visual C++ Redistributables required for Neard :
 
-* Visual C++ 2005 SP1 Runtimes
-* Visual C++ 2008 SP1 Runtimes
-* Visual C++ 2010 SP1 Runtimes
-* Visual C++ 2012 UPD4 Runtimes
-* Visual C++ 2013 Runtimes
-* Visual C++ 2015 UPD1 Runtimes
+* Visual C++ 2005 SP1 Runtimes (VC6) ([x86](https://www.microsoft.com/en-US/download/details.aspx?id=5638) / [x64](https://www.microsoft.com/en-US/download/details.aspx?id=21254))
+* Visual C++ 2008 SP1 Runtimes (VC9) ([x86](http://www.microsoft.com/en-US/download/details.aspx?id=5582) / [x64](https://www.microsoft.com/en-US/download/details.aspx?id=2092))
+* Visual C++ 2010 SP1 Runtimes (VC10) ([x86](http://www.microsoft.com/en-US/download/details.aspx?id=8328) / [x64](https://www.microsoft.com/en-US/download/details.aspx?id=13523))
+* Visual C++ 2012 UPD4 Runtimes (VC11) ([x86 / x64](http://www.microsoft.com/en-US/download/details.aspx?id=30679))
+* Visual C++ 2013 Runtimes (VC13) ([x86 / x64](https://www.microsoft.com/en-US/download/details.aspx?id=40784))
+* Visual C++ 2015 UPD1 Runtimes (VC14) ([x86 / x64](http://www.microsoft.com/en-US/download/details.aspx?id=48145))
 
 ## Issues
 

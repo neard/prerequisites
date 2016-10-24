@@ -1,5 +1,9 @@
 # Changelog
 
+## r4 (2016/10/24)
+
+* Adding Visual C++ Redistributables for x64 architecture
+
 ## r3 (2016/10/22)
 
 * Adding Visual C++ Redistributables 2013 (required for PostgreSQL)

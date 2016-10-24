@@ -33,7 +33,9 @@ Uninstallable=no
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "src\*"; DestDir: "{tmp}\{#appBasename}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "src\*"; DestDir: "{tmp}\{#appBasename}"; Flags: ignoreversion recursesubdirs createallsubdirs deleteafterinstall
 
 [Run]
-Filename: "{tmp}\{#appBasename}\install.bat"; WorkingDir: "{tmp}\{#appBasename}"; Flags: runhidden waituntilterminated
+Filename: "{tmp}\{#appBasename}\install_x86.bat"; WorkingDir: "{tmp}\{#appBasename}"; Flags: runhidden waituntilterminated
+Filename: "{tmp}\{#appBasename}\install_x64.bat"; WorkingDir: "{tmp}\{#appBasename}"; Flags: runhidden waituntilterminated; Check: IsWin64
+Filename: "{tmp}\{#appBasename}\clean.bat"; WorkingDir: "{tmp}\{#appBasename}"; Flags: runhidden waituntilterminated
