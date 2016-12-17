@@ -11,7 +11,7 @@ This a sub-repo of [Neard project](https://github.com/crazy-max/neard) involving
 [![vcredists source](https://img.shields.io/badge/source-vcredists-blue.svg?style=flat-square)](https://github.com/crazy-max/neard-misc/tree/master/vcredists)
 
 The MSVC runtime libraries VC9, VC10, VC11 are required even if you use only Apache and PHP versions with VC11.<br />
-Runtimes VC13, VC14 are required for PHP 7 and Apache 2.4.17.<br />
+Runtimes VC13, VC14 are required for PHP 7, Apache 2.4.17 and PostgreSQL.<br />
 This setup provide all the Visual C++ Redistributables required for Neard :
 
 * Visual C++ 2005 SP1 Runtimes (VC6) ([x86](https://www.microsoft.com/en-US/download/details.aspx?id=5638) / [x64](https://www.microsoft.com/en-US/download/details.aspx?id=21254))
@@ -20,6 +20,8 @@ This setup provide all the Visual C++ Redistributables required for Neard :
 * Visual C++ 2012 UPD4 Runtimes (VC11) ([x86 / x64](http://www.microsoft.com/en-US/download/details.aspx?id=30679))
 * Visual C++ 2013 Runtimes (VC13) ([x86 / x64](https://www.microsoft.com/en-US/download/details.aspx?id=40784))
 * Visual C++ 2015 UPD1 Runtimes (VC14) ([x86 / x64](http://www.microsoft.com/en-US/download/details.aspx?id=48145))
+
+The additonnal KB838079 has been integrated for Windows XP to install [Windows Support Tools](http://www.microsoft.com/en-us/download/details.aspx?id=18546).
 
 ## Issues
 

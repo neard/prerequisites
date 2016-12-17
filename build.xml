@@ -33,16 +33,17 @@
         <copy file="${vcredists.path}/setup.iss" tofile="${vcredists.tmp}/setup.iss" overwrite="true">
             <filterset>
                 <filter token="MISC_RELEASE" value="${misc.release}"/>
-                <filter token="MISC_NAME" value="${misc.vcredists.name}"/>
-                <filter token="MISC_SETUPNAME" value="${misc.vcredists.setupname}"/>
+                <filter token="VCREDISTS_ID" value="${vcredists.id}"/>
+                <filter token="VCREDISTS_NAME" value="${vcredists.name}"/>
             </filterset>
         </copy>
         
-        <echo message="Compile setup"/>
+        <echo message="Build setup"/>
         <exec executable="${innosetup.path}/app/ISCC.exe" dir="${vcredists.tmp}">
             <arg value="/O${vcredists.dest}"/>
-            <arg value="/F${misc.vcredists.setupname}"/>
+            <arg value="/F${vcredists.setupname}"/>
             <arg value="${vcredists.tmp}/setup.iss"/>
         </exec>
     </target>
+    
 </project>

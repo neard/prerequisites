@@ -1,5 +1,3 @@
-The MSVC runtime libraries VC9, VC10, VC11 are required even if you use only Apache and PHP versions with VC11.
-Runtimes VC13, VC14 are required for PHP 7 and Apache 2.4.17.
 This setup provide all the Visual C++ Redistributables required for Neard :
 
 - Visual C++ 2005 SP1 Runtimes (VC6)
@@ -8,6 +6,7 @@ This setup provide all the Visual C++ Redistributables required for Neard :
 - Visual C++ 2012 UPD4 Runtimes (VC11)
 - Visual C++ 2013 Runtimes (VC13)
 - Visual C++ 2015 UPD1 Runtimes (VC14)
-- Visual C++ 2015 UPD1 Runtimes (VC14)
+
+The additonnal KB838079 has been integrated for Windows XP to install Windows Support Tools.
 
 Website : https://github.com/crazy-max/neard
