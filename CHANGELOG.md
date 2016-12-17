@@ -1,5 +1,9 @@
 # Changelog
 
+## r5 (2016/12/17)
+
+* Additonnal KB838079 for Windows XP
+
 ## r4 (2016/10/24)
 
 * Adding Visual C++ Redistributables for x64 architecture
