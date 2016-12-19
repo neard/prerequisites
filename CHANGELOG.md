@@ -1,5 +1,9 @@
 # Changelog
 
+## r6 (2016/12/19)
+
+* Upgrade Visual C++ Redistributables 2008 SP1 (KB2538243)
+
 ## r5 (2016/12/17)
 
 * Additonnal KB838079 for Windows XP
