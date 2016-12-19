@@ -7,7 +7,7 @@ This a sub-repo of [Neard project](https://github.com/crazy-max/neard) involving
 
 ### Visual C++ Redistributables Package
 
-[![neard vcredists r5 download](https://img.shields.io/badge/download-neard%20vcredists%20r5-brightgreen.svg?style=flat-square)](https://github.com/crazy-max/neard-misc/releases/download/r5/neard-vcredists-r5.exe)
+[![neard vcredists r6 download](https://img.shields.io/badge/download-neard%20vcredists%20r6-brightgreen.svg?style=flat-square)](https://github.com/crazy-max/neard-misc/releases/download/r6/neard-vcredists-r6.exe)
 [![vcredists source](https://img.shields.io/badge/source-vcredists-blue.svg?style=flat-square)](https://github.com/crazy-max/neard-misc/tree/master/vcredists)
 
 The MSVC runtime libraries VC9, VC10, VC11 are required even if you use only Apache and PHP versions with VC11.<br />
