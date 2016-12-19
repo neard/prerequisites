@@ -15,7 +15,7 @@ Runtimes VC13, VC14 are required for PHP 7, Apache 2.4.17 and PostgreSQL.<br />
 This setup provide all the Visual C++ Redistributables required for Neard :
 
 * Visual C++ 2005 SP1 Runtimes (VC6) ([x86](https://www.microsoft.com/en-US/download/details.aspx?id=5638) / [x64](https://www.microsoft.com/en-US/download/details.aspx?id=21254))
-* Visual C++ 2008 SP1 Runtimes (VC9) ([x86](http://www.microsoft.com/en-US/download/details.aspx?id=5582) / [x64](https://www.microsoft.com/en-US/download/details.aspx?id=2092))
+* Visual C++ 2008 SP1 Runtimes (VC9) ([x86 / x64](https://www.microsoft.com/en-US/download/details.aspx?id=26368))
 * Visual C++ 2010 SP1 Runtimes (VC10) ([x86](http://www.microsoft.com/en-US/download/details.aspx?id=8328) / [x64](https://www.microsoft.com/en-US/download/details.aspx?id=13523))
 * Visual C++ 2012 UPD4 Runtimes (VC11) ([x86 / x64](http://www.microsoft.com/en-US/download/details.aspx?id=30679))
 * Visual C++ 2013 Runtimes (VC13) ([x86 / x64](https://www.microsoft.com/en-US/download/details.aspx?id=40784))
