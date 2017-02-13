@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="neard-prerequisites" basedir=".">
+  
+  <dirname property="project.basedir" file="${ant.file.neard-prerequisites}"/>
+  <property name="root.dir" location="${project.basedir}/.."/>
+  <property name="build.properties" value="${project.basedir}/build.properties"/>
+  <property file="${build.properties}"/>
+  
+  <!-- Neard dev -->
+  <property name="neard-dev.path" location="${root.dir}/neard-dev"/>
+  <fail unless="neard-dev.path" message="Project 'neard-dev' not found in ${neard-dev.path}"/>
+  <echo message="Neard dev found in ${neard-dev.path}" level="debug"/> 
+  
+  <!-- Import build-commons.xml -->
+  <import file="${neard-dev.path}/build/build-commons.xml"/>
+  
+  <target name="release" depends="init, load.lib">
+    <property name="prerequisites.src" location="${project.basedir}/src"/>
+    <property name="prerequisites.setup" location="${project.basedir}/setup"/>
+    <property name="prerequisites.tmp" location="${build.tmp.path}/prerequisites"/>
+    <property name="prerequisites.dest" location="${build.path}/prerequisites"/>
+    
+    <echo message="Copying files"/>
+    <delete dir="${prerequisites.tmp}"/>
+    <mkdir dir="${prerequisites.tmp}"/>
+    <copy todir="${prerequisites.tmp}/src">
+      <fileset dir="${prerequisites.src}"/>
+    </copy>
+    <copy todir="${prerequisites.tmp}">
+      <fileset dir="${prerequisites.setup}"/>
+    </copy>
+    <copy file="${prerequisites.setup}/setup.iss" tofile="${prerequisites.tmp}/setup.iss" overwrite="true">
+      <filterset>
+        <filter token="PREREQ_RELEASE" value="${prerequisites.release}"/>
+        <filter token="PREREQ_ID" value="${prerequisites.id}"/>
+        <filter token="PREREQ_NAME" value="${prerequisites.name}"/>
+      </filterset>
+    </copy>
+    
+    <echo message="Build setup"/>
+    <exec executable="${innosetup.path}/app/ISCC.exe" dir="${prerequisites.tmp}">
+      <arg value="/O${prerequisites.dest}"/>
+      <arg value="/F${prerequisites.setupname}"/>
+      <arg value="${prerequisites.tmp}/setup.iss"/>
+    </exec>
+    <hashfile file="${prerequisites.dest}/${prerequisites.setupname}.exe"/>
+  </target>
+  
+</project>

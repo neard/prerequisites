@@ -1,0 +1,9 @@
+# Eclipse
+/.settings
+/.buildpath
+/.project
+/.jsdtscope
+/*.launch
+
+# Neard
+/.dev
