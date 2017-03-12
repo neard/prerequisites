@@ -1,4 +1,4 @@
-This setup provide all the prerequisites required for Neard :
+This setup provides all the prerequisites required for Neard :
 
 - Visual C++ 2005 SP1 Runtimes (VC6)
 - Visual C++ 2008 SP1 Runtimes (VC9)
