@@ -3,6 +3,7 @@
 #define appVersion "@PREREQ_RELEASE@"
 #define appPublisher "Cr@zy"
 #define appURL "http://neard.io"
+#define currentYear GetDateTimeString('yyyy', '', '');
 
 [Setup]
 AppId={{C65FFCDD-1E78-49B6-A22E-962896E47FDD}
@@ -13,16 +14,26 @@ AppPublisher={#appPublisher}
 AppPublisherURL={#appURL}
 AppSupportURL={#appURL}
 AppUpdatesURL={#appURL}
+
 WizardImageFile=setup.bmp
 WizardSmallImageFile=setup-mini.bmp
+DisableWelcomePage=no
+ShowLanguageDialog=yes
 InfoBeforeFile=before.txt
-CreateAppDir=no
 SetupIconFile=neard.ico
+
 Compression=lzma/max
 SolidCompression=yes
-ShowLanguageDialog=yes
+
+CreateAppDir=no
 Uninstallable=no
 AlwaysRestart=yes
+PrivilegesRequired=admin
+ChangesEnvironment=yes
+
+VersionInfoCompany={#appPublisher}
+VersionInfoCopyright={#appPublisher} {#currentYear}
+VersionInfoProductName={#appName}
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"

@@ -1,5 +1,11 @@
 # Changelog
 
+## r8 (2017/03/12)
+
+* Display welcome page
+* Force privileges as admin
+* Setup style
+
 ## r7 (2017/02/13)
 
 * Add KB2731284 (fix an issue with memory mapped files on Windows 7 impacting MongoDB)

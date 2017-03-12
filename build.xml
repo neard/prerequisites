@@ -38,7 +38,7 @@
     </copy>
     
     <echo message="Build setup"/>
-    <exec executable="${innosetup.path}/app/ISCC.exe" dir="${prerequisites.tmp}">
+    <exec executable="${innosetup.path}/app/ISCC.exe" dir="${prerequisites.tmp}" failonerror="true">
       <arg value="/O${prerequisites.dest}"/>
       <arg value="/F${prerequisites.setupname}"/>
       <arg value="${prerequisites.tmp}/setup.iss"/>
