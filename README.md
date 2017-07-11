@@ -24,7 +24,8 @@ This package provides all the Visual C++ Redistributables required for Neard :
 * Visual C++ 2010 SP1 Runtimes (VC10) ([x86](http://www.microsoft.com/en-US/download/details.aspx?id=8328) / [x64](https://www.microsoft.com/en-US/download/details.aspx?id=13523))
 * Visual C++ 2012 UPD4 Runtimes (VC11) ([x86 / x64](http://www.microsoft.com/en-US/download/details.aspx?id=30679))
 * Visual C++ 2013 Runtimes (VC13) ([x86 / x64](https://www.microsoft.com/en-US/download/details.aspx?id=40784))
-* Visual C++ 2015 UPD1 Runtimes (VC14) ([x86 / x64](http://www.microsoft.com/en-US/download/details.aspx?id=48145))
+* Visual C++ 2015 UPD3 Runtimes (VC14) ([x86 / x64](https://www.microsoft.com/en-US/download/details.aspx?id=53587))
+* Visual C++ 2017 Runtimes (VC15) ([x86](https://go.microsoft.com/fwlink/?LinkId=746571) / [x64](https://go.microsoft.com/fwlink/?LinkId=746572))
 
 ### Additionnal KBs
 

@@ -5,6 +5,9 @@
 /.jsdtscope
 /*.launch
 
+# Jetbrains
+/*.iml
+
 # Neard
 /.dev
 /setup/*.pspimage

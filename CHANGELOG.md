@@ -1,5 +1,10 @@
 # Changelog
 
+## r9 (2017/07/11)
+
+* Add Visual C++ Redistributables 2017 (VC15) (Issue crazy-max/neard#283)
+* Upgrade Visual C++ Redistributables 2015 Update 3
+
 ## r8 (2017/03/12)
 
 * Display welcome page
@@ -8,7 +13,7 @@
 
 ## r7 (2017/02/13)
 
-* Add KB2731284 (fix an issue with memory mapped files on Windows 7 impacting MongoDB)
+* Add KB2731284 that fix an issue with memory mapped files on Windows 7 impacting MongoDB (Issue crazy-max/neard#166)
 * Bug while installing KB838079 on Windows XP
 * Bug while installing Visual C++ 2008 SP1 Runtimes
 * Rename and reset neard-misc repository
@@ -27,7 +32,7 @@
 
 ## r3 (2016/10/22)
 
-* Adding Visual C++ Redistributables 2013 (required for PostgreSQL)
+* Adding Visual C++ Redistributables 2013 (Issue crazy-max/neard#143)
 * Add ANT build tools
 
 ## r2 (2015/12/13)

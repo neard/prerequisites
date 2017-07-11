@@ -5,7 +5,8 @@ This setup provides all the prerequisites required for Neard :
 - Visual C++ 2010 SP1 Runtimes (VC10)
 - Visual C++ 2012 UPD4 Runtimes (VC11)
 - Visual C++ 2013 Runtimes (VC13)
-- Visual C++ 2015 UPD1 Runtimes (VC14)
+- Visual C++ 2015 UPD3 Runtimes (VC14)
+- Visual C++ 2017 Runtimes (VC15)
 - KB838079 : Integrated for Windows XP to install Windows Support Tools.
 - KB2731284 : Fix "33" DOS error code when memory memory-mapped files are cleaned by using the FlushViewOfFile() function in Windows 7.
 
