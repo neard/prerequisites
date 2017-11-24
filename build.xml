@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="neard-prerequisites" basedir=".">
+<project name="prerequisites" basedir=".">
   
-  <dirname property="project.basedir" file="${ant.file.neard-prerequisites}"/>
+  <dirname property="project.basedir" file="${ant.file.prerequisites}"/>
   <property name="root.dir" location="${project.basedir}/.."/>
   <property name="build.properties" value="${project.basedir}/build.properties"/>
   <property file="${build.properties}"/>
   
   <!-- Neard dev -->
-  <property name="neard-dev.path" location="${root.dir}/neard-dev"/>
-  <fail unless="neard-dev.path" message="Project 'neard-dev' not found in ${neard-dev.path}"/>
-  <echo message="Neard dev found in ${neard-dev.path}" level="debug"/> 
+  <property name="dev.path" location="${root.dir}/dev"/>
+  <fail unless="dev.path" message="Project 'dev' not found in ${dev.path}"/>
+  <echo message="Neard dev found in ${dev.path}" level="debug"/> 
   
   <!-- Import build-commons.xml -->
-  <import file="${neard-dev.path}/build/build-commons.xml"/>
+  <import file="${dev.path}/build/build-commons.xml"/>
   
   <target name="release" depends="init, load.lib">
     <property name="prerequisites.src" location="${project.basedir}/src"/>
