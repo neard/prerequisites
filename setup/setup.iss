@@ -1,8 +1,8 @@
 #define appId = "@PREREQ_ID@"
 #define appName "@PREREQ_NAME@"
 #define appVersion "@PREREQ_RELEASE@"
-#define appPublisher "Cr@zy"
-#define appURL "http://neard.io"
+#define appPublisher "CrazyMax"
+#define appURL "https://neard.io"
 #define currentYear GetDateTimeString('yyyy', '', '');
 
 [Setup]

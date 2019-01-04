@@ -1,4 +1,4 @@
-<p align="center"><a href="http://neard.io" target="_blank"><img width="100" src="http://neard.io/img/logo-prereq.png"></a></p>
+<p align="center"><a href="https://neard.io" target="_blank"><img width="100" src="https://neard.io/img/logo-prereq.png"></a></p>
 <p align="center">Neard Prerequisites Package</p>
 
 <p align="center">

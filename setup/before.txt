@@ -10,4 +10,4 @@ This setup provides all the prerequisites required for Neard :
 - KB838079 : Integrated for Windows XP to install Windows Support Tools.
 - KB2731284 : Fix "33" DOS error code when memory memory-mapped files are cleaned by using the FlushViewOfFile() function in Windows 7.
 
-Website : http://neard.io
+Website : https://neard.io
