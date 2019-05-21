@@ -1,5 +1,9 @@
 # Changelog
 
+## r10 (2019/05/21)
+
+* Add Visual C++ Redistributables 2015-2019 (VC14 VC15 VC16) (Issue neard/neard#410)
+
 ## r9 (2017/07/11)
 
 * Add Visual C++ Redistributables 2017 (VC15) (Issue neard/neard#283)
