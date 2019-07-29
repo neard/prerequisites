@@ -4,7 +4,8 @@
 <p align="center">
   <a href="https://github.com/neard/prerequisites/releases/latest"><img src="https://img.shields.io/github/release/neard/prerequisites.svg?style=flat-square" alt="GitHub release"></a>
   <img src="https://img.shields.io/github/downloads/neard/prerequisites/total.svg?style=flat-square" alt="Total downloads">
-  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6EALX9NDSRBAJ"><img src="https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square" alt="Donate Paypal"></a>
+  <a href="https://www.patreon.com/crazymax"><img src="https://img.shields.io/badge/donate-patreon-fb664e.svg?style=flat-square" alt="Support me on Patreon"></a>
+  <a href="https://www.paypal.me/crazyws"><img src="https://img.shields.io/badge/donate-paypal-7057ff.svg?style=flat-square" alt="Donate Paypal"></a>
 </p>
 
 ## About
